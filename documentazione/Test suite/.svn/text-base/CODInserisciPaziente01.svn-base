@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8084/" />
+<title>CODInserisciPaziente01</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">CODInserisciPaziente01</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/cod/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>Utente</td>
+	<td>dottore</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Accedi']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>leftFrame</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='sectionLinks']/p[1]/a[2]/font</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>mainFrame</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>textfield153</td>
+	<td>RSSLSS62A41H5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>textfield153</td>
+	<td>RSSLSS62A41H501R</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>textfield144</td>
+	<td>Alessia</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>textfield145</td>
+	<td>Rossi</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>textfield146</td>
+	<td>Via Garibaldi 45</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>textfield147</td>
+	<td>06111111</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>textfield148</td>
+	<td>01/01/1962</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>textfield149</td>
+	<td>Roma</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>textfield150</td>
+	<td>Diploma</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>textfield151</td>
+	<td>Impiegato</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>select6</td>
+	<td>label=coniugata</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>datamatrimonio</td>
+	<td>01/03/1988</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>username</td>
+	<td>alessiarossi</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>password</td>
+	<td>123456</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>button14</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.0" xmlns="http://java.sun.com/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/persistence http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
+  <persistence-unit name="codAppPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>bean.Abitudinidivita</class>
+    <class>bean.Amministratore</class>
+    <class>bean.Anamnesifamiliare</class>
+    <class>bean.AnamnesifamiliareHasMalattiefamiliari</class>
+    <class>bean.Anamnesipartner</class>
+    <class>bean.Anamnesipersonale</class>
+    <class>bean.Anticoncezionali</class>
+    <class>bean.Bambino</class>
+    <class>bean.Cartellaostetricadigitale</class>
+    <class>bean.Controllogravidanza</class>
+    <class>bean.Datiautenticazione</class>
+    <class>bean.Decorsodellagravidanza</class>
+    <class>bean.Disturbi</class>
+    <class>bean.Dottore</class>
+    <class>bean.Ecografiatabella</class>
+    <class>bean.Ecografie</class>
+    <class>bean.Esameematochimici</class>
+    <class>bean.Esameematochimicitabella</class>
+    <class>bean.Esamesierologico</class>
+    <class>bean.Esamesierologicotabella</class>
+    <class>bean.Graficosinfisidelfondo</class>
+    <class>bean.Malattiefamiliari</class>
+    <class>bean.Paziente</class>
+    <class>bean.Storiaginecologica</class>
+    <class>bean.Storiamestruale</class>
+    <class>bean.Storiaostetrica</class>
+    <class>bean.Storiaostretricamadredelladonna</class>
+    <class>bean.Storiaostretricatabella</class>
+    <class>bean.Storiapreconcezionale</class>
+    <class>bean.Visitaostetrica</class>
+    <class>bean.Visitaostetricatabella</class>
+    <class>bean.Visite</class>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost/cod"/>
+      <property name="javax.persistence.jdbc.password" value="cod"/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="cod"/>
+    </properties>
+  </persistence-unit>
+</persistence>

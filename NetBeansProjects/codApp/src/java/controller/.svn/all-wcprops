@@ -1,0 +1,197 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller
+END
+AnticoncezionaliJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/AnticoncezionaliJpaController.java
+END
+EsamesierologicoJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/EsamesierologicoJpaController.java
+END
+StoriaostretricamadredelladonnaJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/StoriaostretricamadredelladonnaJpaController.java
+END
+AnamnesifamiliareHasMalattiefamiliariJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/AnamnesifamiliareHasMalattiefamiliariJpaController.java
+END
+StoriapreconcezionaleJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/StoriapreconcezionaleJpaController.java
+END
+VisitaostetricatabellaJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/VisitaostetricatabellaJpaController.java
+END
+VisiteJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/VisiteJpaController.java
+END
+EsameematochimiciJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/EsameematochimiciJpaController.java
+END
+DecorsodellagravidanzaJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/DecorsodellagravidanzaJpaController.java
+END
+CartellaostetricadigitaleJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/CartellaostetricadigitaleJpaController.java
+END
+GraficosinfisidelfondoJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/GraficosinfisidelfondoJpaController.java
+END
+VisitaostetricaJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/VisitaostetricaJpaController.java
+END
+StoriaostetricaJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/StoriaostetricaJpaController.java
+END
+PazienteJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/PazienteJpaController.java
+END
+DottoreJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/DottoreJpaController.java
+END
+EcografieJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/EcografieJpaController.java
+END
+DatiautenticazioneJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/DatiautenticazioneJpaController.java
+END
+StoriaostretricatabellaJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/StoriaostretricatabellaJpaController.java
+END
+AnamnesipartnerJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/AnamnesipartnerJpaController.java
+END
+EsameematochimicitabellaJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/EsameematochimicitabellaJpaController.java
+END
+AmministratoreJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/AmministratoreJpaController.java
+END
+AnamnesipersonaleJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/AnamnesipersonaleJpaController.java
+END
+EcografiatabellaJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/EcografiatabellaJpaController.java
+END
+StoriaginecologicaJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/StoriaginecologicaJpaController.java
+END
+AnamnesifamiliareJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/AnamnesifamiliareJpaController.java
+END
+BambinoJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/BambinoJpaController.java
+END
+AbitudinidivitaJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/AbitudinidivitaJpaController.java
+END
+MalattiefamiliariJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/MalattiefamiliariJpaController.java
+END
+EsamesierologicotabellaJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/EsamesierologicotabellaJpaController.java
+END
+ControllogravidanzaJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/ControllogravidanzaJpaController.java
+END
+StoriamestrualeJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/StoriamestrualeJpaController.java
+END
+DisturbiJpaController.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/DisturbiJpaController.java
+END

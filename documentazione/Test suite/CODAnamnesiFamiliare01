@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8084/" />
+<title>CODAnamnesiFamiliare01</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">CODAnamnesiFamiliare01</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/cod/index.jsp</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>Utente</td>
+	<td>dottore</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Accedi']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>leftFrame</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>//div[@id='sectionLinks']/p[1]/a[3]/font</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>topFrame</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cognome</td>
+	<td>Rossi</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>ora</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>mainFrame</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dettagli</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>osservazioni</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>diabetefamiliare</td>
+	<td>Nonno Materno</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>diabetedettagli</td>
+	<td>---</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>gemellaritafamiliare</td>
+	<td>Fratelli</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>gemellaritadettagli</td>
+	<td>---</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>allergiefamiliare</td>
+	<td>Madre, padre</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>allergiedettagli</td>
+	<td>Polvere, intolleranza al latte</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cancrofamiliare</td>
+	<td>Zia</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cancrodettagli</td>
+	<td>---</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>malattierenalifamiliare</td>
+	<td>Nonno Paterno</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>malattierenalidettagli</td>
+	<td>---</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>osservazioni</td>
+	<td>Nessuna osservazione</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>button13</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

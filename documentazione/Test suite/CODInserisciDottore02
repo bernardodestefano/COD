@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8084/" />
+<title>CODInserisciDottore02</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">CODInserisciDottore02</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/cod/amministratore/InserisciDott.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>codicefiscale</td>
+	<td>OSVSVNN</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nome</td>
+	<td>Osvalda</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cognome</td>
+	<td>Savonarola</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>indirizzo</td>
+	<td>Via Mazzini 15</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cellulare</td>
+	<td>4429380</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>email</td>
+	<td>osvix78@asdomare.it</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>comune</td>
+	<td>Pollena Trocchio</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>provincia</td>
+	<td>Napoli</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@type='submit']</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>

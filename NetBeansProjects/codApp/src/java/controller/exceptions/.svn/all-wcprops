@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/exceptions
+END
+PreexistingEntityException.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/exceptions/PreexistingEntityException.java
+END
+IllegalOrphanException.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/exceptions/IllegalOrphanException.java
+END
+NonexistentEntityException.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/!svn/ver/120/trunk/NetBeansProjects/codApp/src/java/controller/exceptions/NonexistentEntityException.java
+END

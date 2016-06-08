@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Documento senza titolo</title>
+<style type="text/css">
+<!--
+body {
+	background-color: #EBEDEC;
+}
+
+th{
+	background-color:#FFFF66;
+}
+-->
+</style></head>
+
+<body>
+<table align="center">
+  <!--DWLayoutTable-->
+  <tr>
+    <td align="center" valign="middle"><img src="LogoCOD.png" width="213" height="136" />
+    </td>
+  </tr>
+</table>
+<form action="/cod/businesslogic/dottore/inserisciDatiPazienti" method="post">
+  <table width="800" border="0" align="center">
+    <tr>
+      <th colspan="4" scope="col">DATI PERSONALI</th>
+    </tr>
+    <tr>
+      <td colspan="4"><hr /></td>
+    </tr>
+    <tr>
+      <td>Nome</td>
+      <td><label for="textfield144"></label>
+        <input type="text" name="nome" id="textfield144" /></td>
+      <td>Cognome</td>
+      <td><label for="textfield145"></label>
+        <input type="text" name="cognome" id="textfield145" /></td>
+    </tr>
+    <tr>
+      <td>Indirizzo</td>
+      <td><label for="textfield146"></label>
+        <input type="text" name="indirizzo" id="textfield146" /></td>
+      <td>Telefono</td>
+      <td><label for="textfield147"></label>
+        <input type="text" name="telefono" id="textfield147" /></td>
+    </tr>
+    <tr>
+      <td>Data di nascita</td>
+      <td><label for="textfield148"></label>
+        <input name="datadinascita" type="text" id="textfield148" value="gg/mm/aaaa" /></td>
+      <td>Luogo di nascita</td>
+      <td><label for="textfield149"></label>
+        <input type="text" name="luogodinascita" id="textfield149" /></td>
+    </tr>
+    <tr>
+      <td>Titolo di studio</td>
+      <td><label for="textfield150"></label>
+        <input type="text" name="titolodistudio" id="textfield150" /></td>
+      <td>Professione</td>
+      <td><label for="textfield151"></label>
+        <input type="text" name="professione" id="textfield151" /></td>
+    </tr>
+    <tr>
+      <td>Stato Civile</td>
+      <td>
+        <select name="statocivile" id="select6">
+        <option value="celibe">celibe</option>
+        <option value="nubile">nubile</option>
+        <option value="coniugata">coniugata</option>
+      </select></td>
+      <td>Codice Fiscale</td>
+      <td><label for="textfield153"></label>
+        <input name="codicefiscale" type="text" id="textfield153" maxlength="16" /></td>
+    </tr>
+    <tr>
+      <td>Data del matrimonio</td>
+      <td><label for="nome"></label>
+      <input name="datamatrimonio" type="text" id="datamatrimonio" value="gg/mm/aaaa" /></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="4"><hr /></td>
+    </tr>
+    <tr>
+    	<td>Username:
+        </td>
+        <td>
+        <input type="text" name="username" /></td>
+        <td>Password:
+        </td>
+        <td>
+        <input type="password" name="password"/></td>
+    </tr>
+    <tr>
+      <td colspan="4"><hr /></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center"><input type="submit" name="button14" id="button14" value="Inserisci Dati Personali" /></td>
+    </tr>
+    <tr>
+    <td colspan="4">
+    	<hr /></td>
+    </tr>
+  </table>
+</form>
+
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Documento senza titolo</title>
+</head>
+
+<body>
+<form action="/cod/businesslogic/amministratore/inserisciDottore">
+    <table>
+            <tr>
+                <td>Codice fiscale:</td>
+                <td><input type="text" size="16" maxlength="16" name="codicefiscale" /></td>
+            </tr>
+
+            <tr>
+                <td>Nome:</td>
+                <td><input type="text" size="10" name="nome" /></td>
+            </tr>
+
+            <tr>
+                <td>Cognome:</td>
+                <td><input type="text" name="cognome" /></td>
+            </tr>
+
+            <tr>
+                <td>Indirizzo:</td>
+                <td><input type="text" name="indirizzo" /></td>
+            </tr>
+
+            <tr>
+                <td>Cellulare:</td>
+                <td><input type="text" name="cellulare" /></td>
+            </tr>
+
+            <tr>
+                <td>Email:</td>
+                <td><input type="text" name="email" /></td>
+            </tr>
+
+            <tr>
+                <td>Comune:</td>
+                <td><input type="text" name="comune" /></td>
+            </tr>
+
+            <tr>
+                <td>Provincia:</td>
+                <td><input type="text" name="provincia" /></td>
+            </tr>
+
+            <tr>
+                <td><input type="submit"></input> </td>
+            </tr>
+
+        </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,1326 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Documento senza titolo</title>
+<style type="text/css">
+table{
+		
+		
+}
+
+th{
+	background-color:#FFFF66;
+}
+
+body {
+	background-color: #CCC;
+}
+</style>
+</head>
+
+<body>
+<form action="/cod/businesslogic/dottore/inserisciDatiPazienti" method="post">
+  <table width="800" border="0" align="center">
+    <tr>
+      <th colspan="4" scope="col">DATI PERSONALI</th>
+    </tr>
+    <tr>
+      <td colspan="4"><hr /></td>
+    </tr>
+    <tr>
+      <td>Nome</td>
+      <td><label for="textfield144"></label>
+        <input type="text" name="nome" id="textfield144" /></td>
+      <td>Cognome</td>
+      <td><label for="textfield145"></label>
+        <input type="text" name="cognome" id="textfield145" /></td>
+    </tr>
+    <tr>
+      <td>Indirizzo</td>
+      <td><label for="textfield146"></label>
+        <input type="text" name="indirizzo" id="textfield146" /></td>
+      <td>Telefono</td>
+      <td><label for="textfield147"></label>
+        <input type="text" name="telefono" id="textfield147" /></td>
+    </tr>
+    <tr>
+      <td>Data di nascita</td>
+      <td><label for="textfield148"></label>
+        <input type="text" name="datadinascita" id="textfield148" /></td>
+      <td>Luogo di nascita</td>
+      <td><label for="textfield149"></label>
+        <input type="text" name="luogodinascita" id="textfield149" /></td>
+    </tr>
+    <tr>
+      <td>Titolo di studio</td>
+      <td><label for="textfield150"></label>
+        <input type="text" name="titolodistudio" id="textfield150" /></td>
+      <td>Professione</td>
+      <td><label for="textfield151"></label>
+        <input type="text" name="professione" id="textfield151" /></td>
+    </tr>
+    <tr>
+      <td>Stato Civile</td>
+      <td>
+        <select name="statocivile" id="select6">
+        <option value="celibe">celibe</option>
+        <option value="nubile">nubile</option>
+        <option value="coniugata">coniugata</option>
+      </select></td>
+      <td>Codice Fiscale</td>
+      <td><label for="textfield153"></label>
+        <input name="codicefiscale" type="text" id="textfield153" maxlength="16" /></td>
+    </tr>
+    <tr>
+      <td>Data del matrimonio</td>
+      <td><label for="nome"></label>
+      <input type="text" name="datamatrimonio" id="datamatrimonio" /></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="4"><hr /></td>
+    </tr>
+    <tr>
+    	<td>Username:
+        </td>
+        <td>
+        <input type="text" name="username" /></td>
+        <td>Password:
+        </td>
+        <td>
+        <input type="password" name="password"/></td>
+    </tr>
+    <tr>
+      <td colspan="4"><hr /></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center"><input type="submit" name="button14" id="button14" value="Inserisci Dati Personali" /></td>
+    </tr>
+    <tr>
+    <td colspan="4">
+    	<hr /></td>
+    </tr>
+  </table>
+</form>
+<p>
+<form>
+  <table width="800" border="0" align="center">
+    <tr>
+      <th colspan="3" scope="col">ANAMNESI FAMILIARE</th>
+    </tr>
+    <tr>
+    <td colspan="3"> <hr />
+    </td>
+    </tr>
+    <tr align="center">
+      <td width="247">&nbsp;</td>
+      <td width="255">Familiare</td>
+      <td width="284">Inizio e Dettagli</td>
+    </tr>
+    <tr>
+      <td>DIABETE</td>
+      <td align="center"><label for="diabetefamiliare"></label>
+      <input type="text" name="diabetefamiliare" id="diabetefamiliare" /></td>
+      <td align="center"><label for="diabetedettagli"></label>
+      <input type="text" name="diabetedettagli" id="diabetedettagli" /></td>
+    </tr>
+    <tr>
+      <td>IPERTENSIONE</td>
+      <td align="center"><label for="ipertensionefamiliare"></label>
+      <input type="text" name="ipertensionefamiliare" id="ipertensionefamiliare" /></td>
+      <td align="center"><label for="ipertensionedettagli"></label>
+      <input type="text" name="ipertensionedettagli" id="ipertensionedettagli" /></td>
+    </tr>
+    <tr>
+      <td>GEMELLARITA'</td>
+      <td align="center"><label for="gemellaritafamiliare"></label>
+      <input type="text" name="gemellaritafamiliare" id="gemellaritafamiliare" /></td>
+      <td align="center"><label for="gemellaritadettagli"></label>
+      <input type="text" name="gemellaritadettagli" id="gemellaritadettagli" /></td>
+    </tr>
+    <tr>
+      <td>MALFORMAZIONI CONGENITE</td>
+      <td align="center"><label for="malformazionifamiliare"></label>
+      <input type="text" name="malformazionifamiliare" id="malformazionifamiliare" /></td>
+      <td align="center"><label for="malformazionidettagli"></label>
+      <input type="text" name="malformazionidettagli" id="malformazionidettagli" /></td>
+    </tr>
+    <tr>
+      <td>VARICI</td>
+      <td align="center"><label for="varicifamiliare"></label>
+      <input type="text" name="varicifamiliare" id="varicifamiliare" /></td>
+      <td align="center"><label for="varicidettagli"></label>
+      <input type="text" name="varicidettagli" id="varicidettagli" /></td>
+    </tr>
+    <tr>
+      <td>ALLERGIE</td>
+      <td align="center"><label for="allergiefamiliare"></label>
+      <input type="text" name="allergiefamiliare" id="allergiefamiliare" /></td>
+      <td align="center"><label for="allergiedettagli"></label>
+      <input type="text" name="allergiedettagli" id="allergiedettagli" /></td>
+    </tr>
+    <tr>
+      <td>CANCRO</td>
+      <td align="center"><label for="cancrofamiliare"></label>
+      <input type="text" name="cancrofamiliare" id="cancrofamiliare" /></td>
+      <td align="center"><label for="cancrodettagli"></label>
+      <input type="text" name="cancrodettagli" id="cancrodettagli" /></td>
+    </tr>
+    <tr>
+      <td>CARDIOPATIE</td>
+      <td align="center"><label for="cardiopatiefamiliare"></label>
+      <input type="text" name="cardiopatiefamiliare" id="cardiopatiefamiliare" /></td>
+      <td align="center"><label for="cardiopatiedettagli"></label>
+      <input type="text" name="cardiopatiedettagli" id="cardiopatiedettagli" /></td>
+    </tr>
+    <tr>
+      <td>MALATTIE RENALI</td>
+      <td align="center"><label for="malattierenalifamiliare"></label>
+      <input type="text" name="malattierenalifamiliare" id="malattierenalifamiliare" /></td>
+      <td align="center"><label for="malattierenalidettagli"></label>
+      <input type="text" name="malattierenalidettagli" id="malattierenalidettagli" /></td>
+    </tr>
+    <tr>
+      <td>EPILESSIA</td>
+      <td align="center"><label for="epilessiafamiliare"></label>
+      <input type="text" name="epilessiafamiliare" id="epilessiafamiliare" /></td>
+      <td align="center"><label for="epilessiadettagli"></label>
+      <input type="text" name="epilessiadettagli" id="epilessiadettagli" /></td>
+    </tr>
+    <tr>
+      <td>MALATTIE PSICHIATRICHE</td>
+      <td align="center"><label for="malattiepsichiatrichefamiliare"></label>
+      <input type="text" name="malattiepsichiatrichefamiliare" id="malattiepsichiatrichefamiliare" /></td>
+      <td align="center"><label for="malattiepsichiatrichedettagli"></label>
+      <input type="text" name="malattiepsichiatrichedettagli" id="malattiepsichiatrichedettagli" /></td>
+    </tr>
+    <tr>
+      <td>ALTRO</td>
+      <td align="center"><label for="altrofamiliare"></label>
+      <input type="text" name="altrofamiliare" id="altrofamiliare" /></td>
+      <td align="center"><label for="altrodettagli"></label>
+      <input type="text" name="altrodettagli" id="altrodettagli" /></td>
+    </tr>
+    <tr>
+      <td>Osservazioni</td>
+      <td colspan="2"><label for="osservazioni"></label>
+      <textarea name="osservazioni" id="osservazioni" cols="75" rows="3"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="3"><hr /></td>
+    </tr>
+    <tr>
+      <td colspan="3" align="center"><input type="submit" name="button13" id="button13" value="Inserisci Anamnesi Familiare" /></td>
+    </tr>
+     <tr>
+    <td colspan="3"> <hr />
+    </td>
+    </tr>
+  </table>
+</form>
+<P>
+<form>
+<table width="800" border="0" align="center">
+  <tr>
+    <th colspan="3"  bgcolor="#FFFF66" align="center"> ANAMNESI PERSONALE</th>
+  </tr>
+   <tr>
+    <td colspan="3"> <hr />
+    </td>
+    </tr>
+  <tr>
+    <td width="281"><input name="anamnesipersonale" type="checkbox" id="anamnesipersonale" value="diabete" />
+      <label for="anamnesipersonale">Diabete</label></td>
+    <td width="250"><input name="anamnesipersonale" type="checkbox" id="anamnesipersonale" value="obesita" />
+      <label for="anamnesipersonale">Obesità</label></td>
+  </tr>
+  <tr>
+    <td><input name="anamnesipersonale" type="checkbox" id="anamnesipersonale" value="malattieinfettive" />
+      <label for="anamnesipersonale"></label>
+      Malattie infettive</td>
+    <td><input type="checkbox" value="disturbialimentari" />
+      <label for=""></label>
+      Disturbi alimentari</td>
+  </tr>
+  <tr>
+    <td><input name="anamnesipersonale" type="checkbox" id="anamnesipersonale" value="malattieesantematiche" />
+      <label for="anamnesipersonale">Malattie esantematiche</label></td>
+    <td><input name="anamnesipersonale" type="checkbox" id="anamnesipersonale" value="malattiesessualmentetrasmesse" />
+      <label for="anamnesipersonale">Malattie sessualmente trasmesse</label></td>
+  </tr>
+  <tr>
+    <td><input name="anamnesipersonale" type="checkbox" id="anamnesipersonale" value="interventichirurgici" />
+      <label for="anamnesipersonale">Interventi chirurgici</label></td>
+    <td><input name="anamnesipersonale" type="checkbox" id="anamnesipersonale" value="allergie" />
+      <label for="anamnesipersonale"></label>
+      Allergie</td>
+  </tr>
+  <tr>
+    <td><input name="anamnesipersonale" type="checkbox" id="anamnesipersonale" value="incidentitraumifratture" />
+      <label for="anamnesipersonale">Incidenti, traumi, fratture</label></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><label for="anamnesipersonale">altro: </label>
+      <label for="anamnesipersonalealtro"></label>
+      <input type="text" name="anamnesipersonalealtro" id="anamnesipersonalealtro" /></td>
+    </tr>
+    <tr>
+    	<td colspan="3"><hr /></td>
+    </tr>
+  <tr>
+    <td>DISTURBI A CARICO DI  </td>
+    <tD>
+      <input name="disturbi" type="checkbox" id="disturbi" value="cuore" />
+      <label for="disturbi">cuore</label></td>
+    <td><input name="disturbi" type="checkbox" id="disturbi" value="sangue" />
+      <label for="disturbi">sangue</label></td>
+  </tr>
+  <tr>
+    <td><input name="disturbi" type="checkbox" id="disturbi" value="circolazione" />
+      <label for="disturbi">circolazione</label></td>
+    <td><input name="disturbi" type="checkbox" id="disturbi" value="reni" />
+      <label for="disturbi">reni</label></td>
+    <td width="255"><input name="disturbi" type="checkbox" id="disturbi" value="fegato" />
+      <label for="disturbi">fegato</label></td>
+  </tr>
+  <tr>
+    <td><input name="disturbi" type="checkbox" id="disturbi" value="polmoni" />
+      <label for="disturbi">polmoni</label></td>
+    <td><input name="disturbi" type="checkbox" id="disturbi" value="stomaco" />
+      <label for="disturbi">stomaco</label></td>
+      <td><input name="disturbi" type="checkbox" id="disturbi" value="intestino" />
+      <label for="disturbi">intestino</label></td>
+  </tr>
+  <tr>
+    <td><input name="disturbi" type="checkbox" id="disturbi" value="sistemanervoso" />
+      <label for="disturbi">sistema nervoso</label></td>
+    <td><input name="disturbi" type="checkbox" id="disturbi" value="sistemaendocrino" />
+      <label for="disturbi">sistema endocrino</label></td>
+      <td><input name="disturbi" type="checkbox" id="disturbi" value="trasfusioni" />
+      <label for="disturbi">trasfusioni</label></td>
+  </tr>
+  <tr>
+    <td><label for="disturbi"></label>
+      altro 
+      <label for="disturbialtro"></label>
+      <input type="text" name="disturbialtro" id="disturbialtro" /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+  	<td colspan="3"> <hr /></td>
+  </tr>
+  <tr>
+  	<td colspan="3" align="center" valign="middle">Osservazioni: 
+  	  <label for="osservazioni"></label>
+  	  <textarea name="osservazioni" id="osservazioni" cols="95" rows="3"></textarea></td>
+  </tr>
+  <tr>
+  	<td colspan="3"><hr /></td>
+  </tr>
+  <tr>
+  <td colspan="3" align="center"><input type="submit"  value="Inserisci Anamnesi Familiare"/></td>
+  </tr>
+   <tr>
+    <td colspan="3"> <hr />
+    </td>
+    </tr>
+</table>
+</form>
+<p>
+<form>
+<table width="800" border="0" align="center">
+  <tr>
+    <th colspan="4"  bgcolor="#FFFF66" align="center">ANAMNESI DEL PARTNER</th>
+    </tr>
+  <tr>
+    <td>Nome: <label for="nome">
+      <input name="nome" type="text" id="nome" size="15" />
+    </label></td>
+    <td>Cognome:
+      <label for="cognome">
+        <input name="cognome" type="text" id="cognome" size="15" />
+      </label></td>
+    <td colspan="2">Gruppo Sangue:
+      <select name="grupposanguigno">
+        <option value="0" selected="selected">seleziona</option>
+        <option value="Apositivo">Apositivo</option>
+        <option value="Anegativo">Anegativo</option>
+        <option value="BPositivo">BPositivo</option>
+        <option value="Bnegativo">Bnegativo</option>
+        <option value="0positivo">0positivo</option>
+        <option value="0negativo">0negativo</option>
+        <option value="ABpositivo">ABpositivo</option>
+        <option value="ABnegativo">ABnegativo</option>
+      </select></td>
+    </tr>
+  <tr>
+    <td width="190">Data nascita:
+      <label for="datanascita"></label>
+      <input name="datanascita" type="text" id="datanascita" size="10" /></td>
+    <td width="221">Peso Nascita:
+      <label for="textfield3"></label>
+      <input name="pesonascita" type="text" id="textfield3" size="10" /></td>
+    <td width="172">&nbsp;</td>
+    <td width="199">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Titolo di studio:</td>
+    <td><label for="titolostudio"></label>
+      <input type="text" name="titolostudio" id="titolostudio" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><hr /></td>
+    </tr>
+  <tr>
+    <td><input name="seleziona" type="checkbox" id="seleziona" value="fumo" />
+      <label for="seleziona">FUMO</label></td>
+    <td><input name="seleziona" type="checkbox" id="seleziona" value="alcool" />
+      <label for="seleziona">ALCOOL</label></td>
+    <td><input name="seleziona" type="checkbox" id="seleziona" value="farmaci" />
+      <label for="seleziona">FARMACI</label></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><hr /></td>
+    </tr>
+  <tr>
+    <td>Malattie familiari:</td>
+    <td><label for="malattiefamiliari"></label>
+      <input type="text" name="malattiefamiliari" id="malattiefamiliari" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Malattie personali:</td>
+    <td><label for="malattiepersonali"></label>
+      <input type="text" name="malattiepersonali" id="malattiepersonali" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Osservazioni:</td>
+    <td colspan="2"><label for="osservazioni"></label>
+      <textarea name="osservazioni" id="osservazioni" cols="45" rows="5"></textarea></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><hr /></td>
+    </tr>
+  <tr>
+    <td colspan="4" align="center"><input type="submit" name="button" id="button" value="Inserisci Anamnesi Partner" /></td>
+    </tr>
+     <tr>
+    <td colspan="4"> <hr />
+    </td>
+    </tr>
+</table>
+</form>
+<p>
+<form>
+<table width="800"  border="0" align="center">
+  <tr>
+    <th colspan="4" bgcolor="#FFFF66">ABITUDINI DI VITA</th>
+    </tr>
+     <tr>
+    <td colspan="4"> <hr />
+    </td>
+    </tr>
+  <tr>
+    <td width="189">Lavoro:</td>
+    <td width="226">
+      <input type="text" name="lavoro" id="lavoro" /></td>
+    <td width="168">Attività domestica:</td>
+    <td width="199">
+      <input type="text" name="attivitadomestica" id="attivitadomestica" /></td>
+  </tr>
+  <tr>
+    <td>Attività corporea:</td>
+    <td><label for="attivitacorporea"></label>
+      <input type="text" name="attivitacorporea" id="attivitacorporea" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Abitazione (Dove, con chi):</td>
+    <td><label for="abitazione"></label>
+      <input type="text" name="abitazione" id="abitazione" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Viaggi:</td>
+    <td><label for="viaggi"></label>
+      <input type="text" name="viaggi" id="viaggi" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Alimentazione:</td>
+    <td><label for="alimentazione"></label>
+      <select name="alimentazione" id="alimentazione">
+        <option value="0" selected="selected">seleziona</option>
+        <option value="vegetariana">vegetariana</option>
+        <option value="lactovegetariana">lactovegetariana</option>
+        <option value="macrobiotica">macrobiotica</option>
+        <option value="varia">varia</option>
+      </select></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Metodo di cura:</td>
+    <td><label for="metododicura"></label>
+      <input type="text" name="metododicura" id="metododicura" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+  	<td colspan="3">
+    	<hr />
+    </td>
+  </tr>
+  <tr>
+    <td><input name="seleziona" type="checkbox" id="seleziona" value="fumo" />
+      <label for="seleziona"></label>
+      Fumo</td>
+    <td>N° Sigarette prima della gravidanza:</td>
+    <td><label for="nsigarettepregravidanza"></label>
+      <input name="nsigarettepregravidanza" type="text" id="nsigarettepregravidanza" size="8" /></td>
+    <td>Durante la gravidanza:
+      <label for="nsigarettedurantegravidanza"></label>
+      <input name="nsigarettedurantegravidanza" type="text" id="nsigarettedurantegravidanza" size="8" /></td>
+  </tr>
+  <tr>
+    <td><input name="seleziona" type="checkbox" id="seleziona" value="caffe" />
+      <label for="seleziona">Caffè</label></td>
+    <td>Quantità: 
+      <label for="quantitacaffe"></label>
+      <input name="quantitacaffe" type="text" id="quantitacaffe" size="8" /></td>
+    <td><input name="seleziona" type="checkbox" id="seleziona" value="alcool" />
+      <label for="seleziona">Alcool</label></td>
+    <td>Quantità: 
+      <label for="quantitaalcool"></label>
+      <input name="quantitaalcool" type="text" id="quantitaalcool" size="8" /></td>
+  </tr>
+  <tr>
+    <td><input name="seleziona" type="checkbox" id="seleziona" value="stupefacenti" />
+      <label for="seleziona">Stupefacenti</label></td>
+    <td>Quantità: 
+      <label for="quantitastupefacenti"></label>
+      <input name="quantitastupefacenti" type="text" id="quantitastupefacenti" size="8" /></td>
+    <td>Farmaci abituali:
+      <label for="checkbox31"></label></td>
+    <td><label for="farmaciabituali"></label>
+      <input type="text" name="farmaciabituali" id="farmaciabituali" /></td>
+  </tr>
+  <tr>
+    <td>Altro: </td>
+    <td><label for="altro"></label>
+      <input type="text" name="altro" id="altro" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><hr /></td>
+    </tr>
+  <tr>
+    <td colspan="4" align="center"><input type="submit" name="button2" id="button2" value="Inserisci Abitudini di vita" /></td>
+    </tr>
+     <tr>
+    <td colspan="4"> <hr />
+    </td>
+    </tr>
+</table>
+</form>
+
+<p>
+<form>
+<table width="800" border="0" align="center">
+  <tr>
+    <th colspan="4" align="center" bgcolor="#FFFF66">STORIA MESTRUALE</th>
+    </tr>
+     <tr>
+    <td colspan="4"> <hr />
+    </td>
+    </tr>
+  <tr>
+    <td width="200">Menarca: 
+      <label for="Menarca"></label>
+      <input name="Menarca" type="text" id="Menarca" size="8" /></td>
+    <td width="200">Ritmo:
+      <label for="Ritmo"></label>
+      <input name="Ritmo" type="text" id="Ritmo" size="8" /></td>
+    <td width="200">Durata:
+      <label for="durata"></label>
+      <input name="durata" type="text" id="durata" size="8" /></td>
+    <td width="200">&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Quantità: </td>
+    <td><label for="quantita"></label>
+      <input type="text" name="quantita" id="quantita" /></td>
+    <td>Dismerronea:</td>
+    <td><label for="dismerronea"></label>
+      <input type="text" name="dismerronea" id="dismerronea" /></td>
+  </tr>
+  <tr>
+    <td colspan="4"><hr /></td>
+    </tr>
+  <tr>
+    <td colspan="4" align="center"><input type="submit" name="button3" id="button3" value="Inserisci Storia Mestruale" /></td>
+    </tr>
+     <tr>
+    <td colspan="4"> <hr />
+    </td>
+    </tr>
+</table>
+</form>
+<p>
+<form>
+<table width="800" border="0" align="center">
+  <tr>
+    <th colspan="4" bgcolor="#FFFF66" align="center">STORIA GINECOLOGICA</th>
+    </tr>
+     <tr>
+    <td colspan="4"> <hr />
+    </td>
+    </tr>
+  <tr>
+    <td width="135"><input name="seleziona" type="checkbox" id="seleziona" value="paptest" />
+      Pap Test</td>
+    <td width="289">Data dell'ultimo: 
+      <label for="dataultimopaptest"></label>
+      <input type="text" name="dataultimopaptest" id="dataultimopaptest" /></td>
+    <td width="347">Esito: 
+      <label for="esitopaptest"></label>
+      <input type="text" name="esitopaptest" id="esitopaptest" /></td>
+    <td width="11">&nbsp;</td>
+  </tr>
+  <tr>
+    <td><input name="seleziona" type="checkbox" id="seleziona" value="colposcopia" />
+      <label for="seleziona"></label>
+      Colposcopia</td>
+    <td>Data: 
+      <label for="datacolposcopia"></label>
+      <input type="text" name="datacolposcopia" id="datacolposcopia" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="2"><input name="seleziona" type="checkbox" id="seleziona" value="patologiamammella" />
+      <label for="seleziona"></label>
+      Patologia della mammella</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>Interventi chirurgici:</td>
+    <td><label for="interventichirurgici"></label>
+      <input type="text" name="interventichirurgici" id="interventichirurgici" /></td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="4"><hr /></td>
+    </tr>
+  <tr>
+    <td colspan="4" align="center"><input type="submit" name="button4" id="button4" value="Inserisci Storia Ginecologica" /></td>
+    </tr>
+     <tr>
+    <td colspan="4"> <hr />
+    </td>
+    </tr>
+</table>
+</form>
+<p>
+<form>
+<table width="800" border="0" align="center">
+  <tr>
+    <th colspan="4" bgcolor="#FFFF66" align="center">ANTICONCEZIONALI</th>
+    </tr>
+     <tr>
+    <td colspan="4"> <hr />
+    </td>
+    </tr>
+  <tr>
+    <td width="200">&nbsp;</td>
+    <td width="200">TIPO</td>
+    <td width="200">PER QUANTO TEMPO</td>
+    <td width="200">EFFETTI COLLATERALI</td>
+  </tr>
+  <tr>
+    <td><input name="seleziona" type="checkbox" id="seleziona" value="pillola" />
+      <label for="seleziona">PILLOLA</label></td>
+    <td><label for="tipopillola"></label>
+      <input type="text" name="tipopillola" id="tipopillola" /></td>
+    <td><label for="tempopillola"></label>
+      <input type="text" name="tempopillola" id="tempopillola" /></td>
+    <td><label for="effettipillola"></label>
+      <input type="text" name="effettipillola" id="effettipillola" /></td>
+  </tr>
+  <tr>
+    <td><input name="seleziona" type="checkbox" id="seleziona" value="iud" />
+      IUD
+      <label for="seleziona"></label></td>
+    <td><label for="tipoiud"></label>
+      <input type="text" name="tipoiud" id="tipoiud" /></td>
+    <td><label for="tempoiud"></label>
+      <input type="text" name="tempoiud" id="tempoiud" /></td>
+    <td><label for="effettiiud"></label>
+      <input type="text" name="effettiiud" id="effettiiud" /></td>
+  </tr>
+  <tr>
+    <td><input name="seleziona" type="checkbox" id="seleziona" value="diaframma" />
+      DIAFRAMMA
+      <label for="seleziona"></label></td>
+    <td><label for="tipodiaframma"></label>
+      <input type="text" name="tipodiaframma" id="tipodiaframma" /></td>
+    <td><label for="tempodiaframma"></label>
+      <input type="text" name="tempodiaframma" id="tempodiaframma" /></td>
+    <td><label for="effettidiaframma"></label>
+      <input type="text" name="effettidiaframma" id="effettidiaframma" /></td>
+  </tr>
+  <tr>
+    <td><input name="seleziona" type="checkbox" id="seleziona" value="altro" />
+      <label for="seleziona">ALTRO</label></td>
+    <td><label for="tipoaltro"></label>
+      <input type="text" name="tipoaltro" id="tipoaltro" /></td>
+    <td><label for="tempoaltro"></label>
+      <input type="text" name="tempoaltro" id="tempoaltro" /></td>
+    <td><label for="effettialtro"></label>
+      <input type="text" name="effettialtro" id="effettialtro" /></td>
+  </tr>
+  <tr>
+  	<td colspan="4"><hr /></td>
+  </tr>
+  <tr>
+  <td colspan="4" align="center"><input name="" type="button" value="Inserisci Anticoncezionali" /></td>
+  </tr>
+   <tr>
+    <td colspan="4"> <hr />
+    </td>
+    </tr>
+</table>
+</form>
+<p>
+<form>
+
+  <table width="800" border="0" align="center">
+    <tr>
+      <th colspan="14" bgcolor="#FFFF66" align="center">STORIA OSTETRICA</th>
+    </tr>
+     <tr>
+    <td colspan="14"> <hr />
+    </td>
+    </tr>
+    <tr align="center">
+      <td width="18">N°</td>
+      <td width="33">Anno</td>
+      <td width="75">Età gestionale</td>
+      <td width="30">IVG</td>
+      <td width="65">Aborto Spontaneo</td>
+      <td width="78">Tipo parto</td>
+      <td>Luogo parto</td>
+      <td width="61">Peso bambino</td>
+      <td width="36">Sesso</td>
+      <td width="89">Condizioni del bambino</td>
+      <td width="102"><p>tipo allattamento</p></td>
+      <td width="102"><p>durata allattamento</p></td
+      ><td width="167">Complicazioni della gravidanza, puerperio, parto o aborto</td>
+      <td>Osservazioni</td>
+    </tr>
+    <tr align="center">
+      <td>1</td>
+      <td><label for="anno"></label>
+      <input name="anno" type="text" id="anno" size="4" /></td>
+      <td><label for="eta"></label>
+      <input name="eta" type="text" id="eta" size="10" /></td>
+      <td><label for="ivg"></label>
+      <input name="ivg" type="text" id="ivg" size="4" /></td>
+      <td><input name="aborto" type="checkbox" id="aborto" value="aborto" />
+      <label for="aborto"></label></td>
+      <td><label for="tipoluogoparto"></label>
+      <input name="tipoparto" type="text" id="tipoparto" size="10" /></td>
+      <td><label for="tipoluogoparto"></label>
+      <input name="luogoparto" type="text" id="luogoparto" size="10" /></td>
+      <td><label for="pesobambino"></label>
+      <input name="pesobambino" type="text" id="pesobambino" size="4" /></td>
+      <td><label for="sesso"></label>
+        <select name="sesso" id="sesso">
+        <option value="m">maschio</option>
+        <option value="f">femmina</option>
+      </select></td>
+      <td><label for="condizioni"></label>
+      <input name="condizioni" type="text" id="condizioni" size="10" /></td>
+      <td><label for="tipoallattamento"></label>
+      <input name="tipoallattamento" type="text" id="tipoallattamento" size="10" /></td>
+      <td><label for="tipoallattamento"></label>
+      <input name="durataallattamento" type="text" id="durataallattamento" size="10" /></td>
+      <td><label for="complicazioni"></label>
+      <input name="complicazioni" type="text" id="complicazioni" size="10" /></td>
+      <td><label for="osservazioni"></label>
+      <textarea name="osservazioni" id="osservazioni" cols="15" rows="2"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="14"><hr /></td>
+    </tr>
+    <tr>
+      <td colspan="14" align="center"><input type="submit" name="button5" id="button5" value="Inserisci Storia Ostetrica" /></td>
+    </tr>
+     <tr>
+    <td colspan="14"> <hr />
+    </td>
+    </tr>
+  </table>
+</form>
+<p>
+<form>
+
+
+<table width="800" border="0" align="center">
+  <tr>
+    <th colspan="3" align="center" bgcolor="#FFFF66">STORIA PRECONCEZIONALE</th>
+  </tr>
+   <tr>
+    <td colspan="3"> <hr />
+    </td>
+    </tr>
+  <tr>
+    <td colspan="3"><input name="seleziona" type="checkbox" id="seleziona" value="desiderata" />
+    <label for="seleziona">Gravidanza desiderata/prevista</label></td>
+  </tr>
+  <tr>
+    <td colspan="3"><input name="seleziona" type="checkbox" id="seleziona" value="imprevistadonna" />
+      <label for="seleziona">Gravidanza imprevista/accettazione della donna</label></td>
+  </tr>
+  <tr>
+    <td colspan="3"><input name="seleziona" type="checkbox" id="seleziona" value="imprevistapartner" />
+      Gravidanza imprevista/accettazione del partner</td>
+    </tr>
+  <tr>
+    <td width="175"><input name="seleziona" type="checkbox" id="seleziona" value="difficolta" />
+      <label for="seleziona">Difficoltà di concepimento</label></td>
+    <td width="269">Accertamenti e provvedimenti:</td>
+    <td width="252"><label for="accertamentiprovvedimenti"></label>
+      <input type="text" name="accertamentiprovvedimenti" id="accertamentiprovvedimenti" /></td>
+  </tr>
+  <tr>
+    <td>Condizioni coppia:</td>
+    <td><label for="condizionicoppia"></label>
+      <input type="text" name="condizionicoppia" id="condizionicoppia" /></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td colspan="3"><hr /></td>
+    </tr>
+    <tr>
+    <td colspan="3" align="center"><input type="submit" name="button6" id="button6" value="Inserisci Storia Preconcezionale" /></td>
+    </tr>
+     <tr>
+    <td colspan="3"> <hr />
+    </td>
+    </tr>
+</table>
+</form>
+<p>
+<form>
+  <table width="800" border="0" align="center">
+    <tr>
+      <th colspan="5">STORIA OSTETRICA MADRE DELLA DONNA</th>
+    </tr>
+     <tr>
+    <td colspan="5"> <hr />
+    </td>
+    </tr>
+    <tr>
+      <td width="252">Figlia N° 
+        <label for="nfiglia"></label>
+      <input name="nfiglia" type="text" id="nfiglia" size="4" /></td>
+      <td width="136">Età al parto 
+        <label for="etaparto"></label>
+      <input name="etaparto" type="text" id="etaparto" size="4" /></td>
+      <td width="170">N° Aborti 
+        <label for="naborti"></label>
+      <input name="naborti" type="text" id="naborti" size="4" /></td>
+      <td width="107">N° Parti 
+        <label for="nparti"></label>
+      <input name="nparti" type="text" id="nparti" size="4" /></td>
+      <td width="113">Peso bambino 
+        <label for="pesobambino"></label>
+      <input name="pesobambino" type="text" id="pesobambino" size="4" /></td>
+    </tr>
+    <tr>
+      <td>Allattamento:</td>
+      <td><label for="allattamento"></label>
+        <select name="allattamento" id="allattamento">
+        <option selected="selected" value="0">seleziona</option>
+        <option value="naturale">naturale</option>
+        <option value="artificiale">artificiale</option>
+      </select></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Atteggiamento nei confronti del parto:</td>
+      <td><label for="atteggiamento"></label>
+      <input name="atteggiamento" type="text" id="atteggiamento" size="15" /></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Luogo del parto:</td>
+      <td><label for="luogoparto"></label>
+      <input name="luogoparto" type="text" id="luogoparto" size="15" /></td>
+      <td>Durata delle gravidanze:</td>
+      <td><label for="duratagravidanze"></label>
+      <input name="duratagravidanze" type="text" id="duratagravidanze" size="15" /></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Complicazioni parto e gravidanza:</td>
+      <td colspan="2"><label for="complicazioni"></label>
+      <textarea name="complicazioni" id="complicazioni" cols="45" rows="5"></textarea></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Osservazioni:</td>
+      <td colspan="2"><label for="osservazioni"></label>
+      <textarea name="osservazioni" id="osservazioni" cols="45" rows="5"></textarea></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="5"><hr /></td>
+    </tr>
+    <tr>
+      <td colspan="5" align="center"><input type="submit" name="button7" id="button7" value="Inserisci Storia Ostetrica Madre Della Donna" /></td>
+    </tr>
+     <tr>
+    <td colspan="5"> <hr />
+    </td>
+    </tr>
+  </table>
+
+</form>
+<p>
+<form>
+
+  <table width="800" border="0" align="center">
+    <tr>
+      <th colspan="4">DECORSO DELLA GRAVIDANZA</th>
+    </tr>
+     <tr>
+    <td colspan="4"> <hr />
+    </td>
+    </tr>
+    <tr>
+      <td width="338">&nbsp;</td>
+      <td width="154"><input name="umcerta" type="checkbox" id="umcerta" value="true" />
+        <label for="umcerta"></label>
+U.M Certa</td>
+      <td width="258"><label for="cicloprecedente">Ciclo precedente:</label></td>
+      <td width="32"><input type="text" name="cicloprecedente" id="cicloprecedente" /></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>D.P.P.</td>
+      <td><label for="dpp"></label>
+      <input type="text" name="dpp" id="dpp" /></td>
+    </tr>
+    <tr>
+      <td>Test di gravidanza:</td>
+      <td><label for="testgravidanza"></label>
+      <input type="text" name="testgravidanza" id="testgravidanza" /></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td colspan="2">Decorso gravidanza fino al momento 1° visita:</td>
+      <td><label for="decorsogravidanza"></label>
+      <input type="text" name="decorsogravidanza" id="decorsogravidanza" /></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Minaccia d'aborto:</td>
+      <td><label for="minacciaaborto"></label>
+      <input type="text" name="minacciaaborto" id="minacciaaborto" /></td>
+      <td><input name="nausea" type="checkbox" id="nausea" value="true" />
+        <label for="nausea"></label>
+      Nausea</td>
+      <td><label for="farmaciassunti">
+        <input name="vomito" type="checkbox" id="vomito" value="true" />
+      Vomito</label></td>
+    </tr>
+    <tr>
+      <td>Farmaci assunti:</td>
+      <td><label for="farmaciassunti"></label>
+      <input type="text" name="farmaciassunti" id="farmaciassunti" /></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Peso pregravidico:</td>
+      <td><label for="pesopregravidico"></label>
+      <input type="text" name="pesopregravidico" id="pesopregravidico" /></td>
+      <td>Statura:</td>
+      <td><label for="statura"></label>
+      <input type="text" name="statura" id="statura" /></td>
+    </tr>
+    <tr>
+      <td>Colorito: 
+        <label for="colorito"></label>
+      <input name="colorito" type="text" id="colorito" size="10" /></td>
+      <td>Varici: 
+        <label for="varici"></label>
+      <input name="varici" type="text" id="varici" size="10" /></td>
+      <td>Edemi: 
+        <label for="edemi"></label>
+      <input name="edemi" type="text" id="edemi" size="10" /></td>
+      <td>Eczemi: 
+        <label for="eczemi"></label>
+      <input name="eczemi" type="text" id="eczemi" size="10" /></td>
+    </tr>
+    <tr>
+      <td>Vista:</td>
+      <td><label for="vista"></label>
+      <input type="text" name="vista" id="vista" /></td>
+      <td>Seno:</td>
+      <td><label for="seno"></label>
+      <input type="text" name="seno" id="seno" /></td>
+    </tr>
+    <tr>
+      <td>Funzione intestino:</td>
+      <td><label for="funzioneintestino"></label>
+      <input type="text" name="funzioneintestino" id="funzioneintestino" /></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Funzione vescica:</td>
+      <td><label for="funzionevescica"></label>
+      <input type="text" name="funzionevescica" id="funzionevescica" /></td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Altro:</td>
+      <td colspan="2"><label for="altro"></label>
+      <textarea name="altro" id="altro" cols="45" rows="5"></textarea></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>Gruppo sanguigno madre:</td>
+      <td><label for="grupposanguigno"></label>
+        <select name="grupposanguignomadre" id="grupposanguignomadre">
+        <option value="0">seleziona</option>
+        <option value="Apositivo">Apositivo</option>
+        <option value="Anegativo">Anegativo</option>
+        <option value="Bpositivo">Bpositivo</option>
+        <option value="Bnegativo">Bnegativo</option>
+        <option value="0positivo">0positivo</option>
+        <option value="0negativo">0negativo</option>
+        <option value="ABpositivo">ABpositivo</option>
+        <option value="ABnegativo">ABnegativo</option>
+      </select></td>
+      <td>Gruppo sanguigno padre:</td>
+      <td><label for="select5"></label>
+         <select name="grupposanguignopadre" id="grupposanguignopadre">
+        <option value="0">seleziona</option>
+        <option value="Apositivo">Apositivo</option>
+        <option value="Anegativo">Anegativo</option>
+        <option value="Bpositivo">Bpositivo</option>
+        <option value="Bnegativo">Bnegativo</option>
+        <option value="0positivo">0positivo</option>
+        <option value="0negativo">0negativo</option>
+        <option value="ABpositivo">ABpositivo</option>
+        <option value="ABnegativo">ABnegativo</option>
+      </select></td>
+    </tr>
+    <tr>
+      <td>Primi movimenti fetali:</td>
+      <td><label for="primimovimenti"></label>
+      <input type="text" name="primimovimenti" id="primimovimenti" /></td>
+      <td>Data:</td>
+      <td><label for="data"></label>
+      <input type="text" name="data" id="data" /></td>
+    </tr>
+    <tr>
+      <td colspan="4"><hr /></td>
+    </tr>
+    <tr>
+      <td colspan="4" align="center"><input type="submit" name="button8" id="button8" value="Inserisci Decorso della gravidanza" /></td>
+    </tr>
+     <tr>
+    <td colspan="4"> <hr />
+    </td>
+    </tr>
+  </table>
+</form>
+
+<p>
+<form>
+  <table width="800" border="0" align="center">
+    <tr>
+      <th colspan="5">ECOGRAFIE</th>
+    </tr>
+     <tr>
+    <td colspan="5"> <hr />
+    </td>
+    </tr>
+    <tr align="center">
+      <td width="81">Data</td>
+      <td width="79">Datazione</td>
+      <td width="93">Morfologia</td>
+      <td width="80">Altre</td>
+      <td width="445">
+      	Esami prenatali
+      </td>
+    </tr>
+    <tr align="center">
+      <td><input name="data" type="text" id="data" size="10" /></td>
+      <td><input name="datazione" type="text" id="datazione" size="10" /></td>
+      <td><input name="morfologia" type="text" id="morfologia" size="10" /></td>
+      <td><input name="altre" type="text" id="altre" size="10" /></td>
+      <td><label for="esamiprenatali"></label>
+      <textarea name="esamiprenatali" id="esamiprenatali" cols="45" rows="5"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="5"><hr /></td>
+    </tr>
+    <tr>
+      <td colspan="5" align="center"><input type="submit" name="button9" id="button9" value="Inserisci Ecografia" /></td>
+    </tr>
+     <tr>
+    <td colspan="5"> <hr />
+    </td>
+    </tr>
+  </table>
+</form>
+
+<p>
+<form>
+  <table width="800" border="0" align="center">
+    <tr>
+      <th colspan="8">VISITE</th>
+    </tr>
+     <tr>
+    <td colspan="8"> <hr />
+    </td>
+    </tr>
+    <tr align="center">
+      <td rowspan="2">Data</td>
+      <td rowspan="2">Settimana</td>
+      <td rowspan="2">Peso</td>
+      <td rowspan="2">P.A.</td>
+      <td rowspan="2">BCF</td>
+      <td rowspan="2">Edemi</td>
+      <td colspan="2">Movimenti Fetali Attivi Percepiti</td>
+    </tr>
+    <tr align="center">
+      <td>Dalla Madre</td>
+      <td>Alla Visita</td>
+    </tr>
+    <tr align="center">
+      <td><label for="data"></label>
+      <input name="data" type="text" id="data" size="12" /></td>
+      <td><label for="settimana"></label>
+      <input name="settimana" type="text" id="settimana" size="15" /></td>
+      <td><label for="peso"></label>
+      <input name="peso" type="text" id="peso" size="4" /></td>
+      <td><label for="pa"></label>
+      <input name="pa" type="text" id="pa" size="10" /></td>
+      <td><label for="bcf"></label>
+      <input name="bcf" type="text" id="bcf" size="10" /></td>
+      <td><label for="edemi"></label>
+      <input name="edemi" type="text" id="edemi" size="10" /></td>
+      <td><label for="movimentifetalimadre"></label>
+      <input name="movimentifetalimadre" type="text" id="movimentifetalimadre" size="12" /></td>
+      <td><label for="movimentifetalivisita"></label>
+      <input name="movimentifetalivisita" type="text" id="movimentifetalivisita" size="12" /></td>
+    </tr>
+    <tr>
+      <td colspan="8"><hr /></td>
+    </tr>
+    <tr>
+      <td colspan="8" align="center"><input type="submit" name="button10" id="button10" value="Inserisci visita" /></td>
+    </tr>
+     <tr>
+    <td colspan="8"> <hr />
+    </td>
+    </tr>
+  </table>
+</form>
+
+<p>
+<form>
+<table width="800" border="0" align="center">
+  <tr>
+    <th colspan="16">ESAMI EMATOCHIMICI</t>
+    </tr>
+     <tr>
+    <td colspan="16"> <hr />
+    </td>
+    </tr>
+  <tr align="center">
+    <td width="93">&nbsp;</td>
+    <td width="87">&nbsp;</td>
+    <td colspan="3">Esame Urine</td>
+    <td width="89">&nbsp;</td>
+    <td width="76">&nbsp;</td>
+    <td width="187">&nbsp;</td>
+    
+  </tr>
+  <tr align="center">
+    <td>Data</td>
+    <td>Sett.</td>
+    <td width="122">Albumina</td>
+    <td width="136">Glucosio</td>
+    <td width="137">Sedimento</td>
+    <td>Urocoltura</td>
+    <td>G.B.</td>
+    <td>G.R.</td>
+   </tr>
+   
+  <tr align="center">
+    <td><label for="data"></label>
+      <input name="data" type="text" id="data" size="8" /></td>
+    <td><label for="settimana"></label>
+      <input name="settimana" type="text" id="settimana" size="4" /></td>
+    <td><label for="albumina"></label>
+      <input name="albumina" type="text" id="albumina" size="10" /></td>
+    <td><label for="glucosio"></label>
+      <input name="glucosio" type="text" id="glucosio" size="10" /></td>
+    <td><label for="sedimento"></label>
+      <input name="sedimento" type="text" id="sedimento" size="10" /></td>
+    <td><label for="urocoltura"></label>
+      <input name="urocoltura" type="text" id="urocoltura" size="10" /></td>
+    <td><label for="gb"></label>
+      <input name="gb" type="text" id="gb" size="4" /></td>
+    <td><label for="gr"></label>
+      <input name="gr" type="text" id="gr" size="4" /></td>
+     </tr>
+    
+  <tr align="center">
+    <td>Emoglobina</td>
+    <td>Ematocrito</td>
+    <td>Vol.Glob.Medio</td>
+    <td>Cont. medio emoglobina</td>
+    <td>Piastrine</td>
+    <td>Glicemia</td>
+    <td>Ricerca Ab Antieritrociti</td>
+    <td>&nbsp;</td>
+  </tr>
+   <tr align="center">
+    <td><label for="emoglobina"></label>
+      <input name="emoglobina" type="text" id="emoglobina" size="10" /></td>
+    <td><label for="ematocrito"></label>
+      <input name="ematocrito" type="text" id="ematocrito" size="10" /></td>
+    <td><label for="textfield104"></label>
+      <input name="textfield104" type="text" id="textfield104" size="10" /></td>
+    <td><label for="emoglobinamedio"></label>
+      <input name="emoglobinamedio" type="text" id="emoglobinamedio" size="10" /></td>
+    <td><label for="piastrine"></label>
+      <input name="piastrine" type="text" id="piastrine" size="10" /></td>
+    <td><label for="glicemia"></label>
+      <input name="glicemia" type="text" id="glicemia" size="10" /></td>
+      <td><label for="textfield108">
+        <input name="ricercaab" type="text" id="ricercaab" size="10" />
+      </label></td>
+      <td><label for="ricercaab"></label></td>
+  </tr>
+  <tr>
+  	<td colspan="16"><hr /></td>
+  </tr>
+  <tr>
+  	<td>Note:
+    </td>
+    <td colspan="7"><label for="note"></label>
+      <textarea name="note" id="note" cols="120" rows="2"></textarea></td>
+  </tr>
+  <tr>
+    <td colspan="16"><hr /></td>
+    </tr>
+  <tr>
+    <td align="center" colspan="16"><input type="submit" name="button11" id="button11" value="Inserisci Esami Ematochimici" /></td>
+    </tr>
+     <tr>
+    <td colspan="16"> <hr />
+    </td>
+    </tr>
+</table>
+</form>
+<p>
+<form>
+  <table width="800" border="0" align="center">
+    <tr>
+      <th colspan="11" scope="col">ESAMI SIEROLOGICI</th>
+    </tr>
+     <tr>
+    <td colspan="11"> <hr />
+    </td>
+    </tr>
+    <tr>
+      <td width="194">Data</td>
+      <td width="100">Rosolia</td>
+      <td width="129">Toxoplasmosi</td>
+      <td width="150">Citomegalovirus</td>
+      <td width="69">HbsAg</td>
+      <td width="32">HIV</td>
+      <td width="39">HCV</td>
+      <td width="53">VDRL</td>
+     
+    </tr>
+    <tr>
+      <td><label for="data"></label>
+      <input type="text" name="data" id="data" /></td>
+      <td><label for="rosolia"></label>
+      <input name="rosolia" type="text" id="rosolia" size="15" /></td>
+      <td><label for="toxoplasmosi"></label>
+      <input name="toxoplasmosi" type="text" id="toxoplasmosi" size="15" /></td>
+      <td><label for="citomegalovirus"></label>
+      <input name="citomegalovirus" type="text" id="citomegalovirus" size="18" /></td>
+      <td><label for="hbs"></label>
+      <input name="hbs" type="text" id="hbs" size="10" /></td>
+      <td><label for="hiv"></label>
+      <input name="hiv" type="text" id="hiv" size="10" /></td>
+      <td><label for="hcv"></label>
+      <input name="hcv" type="text" id="hcv" size="10" /></td>
+      <td><label for="vdrl"></label>
+      <input name="vdrl" type="text" id="vdrl" size="10" /></td>
+    </tr>
+    <tr>
+      <td>Tampone Vagina/Rettale</td>
+      <td><label for="tampone"></label>
+      <input name="tampone" type="text" id="tampone" size="15" /></td>
+      <td>Data</td>
+      <td><label for="datatampone"></label>
+      <input name="datatampone" type="text" id="datatampone" size="18" /></td>
+      <td>Terapia</td>
+      <td colspan="3"><label for="terapia"></label>
+      <textarea name="terapia" id="terapia" cols="30" rows="5"></textarea></td>
+    </tr>
+    <tr>
+      <td colspan="8"><hr /></td>
+    </tr>
+    <tr>
+      <td colspan="8" align="center"><input type="submit" name="button12" id="button12" value="Inserisci Esami Sierologici" /></td>
+    </tr>
+     <tr>
+    <td colspan="11"> <hr />
+    </td>
+    </tr>
+  </table>
+</form>
+
+
+</body>
+</html>

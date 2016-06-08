@@ -1,0 +1,15 @@
+/*
+*Servlet <x>
+*Descrizione: Questa servlet serve per..
+*Parametri di input: 
+*@param <nome campo della form che manda i dati>:
+*<li> formato: <formato del campo>(Stringa, min 1 max 25 caratteri)
+*<li> descrizione: <descrizione informale del campo> (Username dell'account...)
+*...
+*...
+*@param <nome campo della form che manda i dati>:
+*<li> formato: <formato del campo>(Stringa, min 1 max 25 caratteri)
+*<li> descrizione: <descrizione informale del campo> (Username dell'account...)
+*
+*Logica di  controllo:
+*<Inserire la logica di controllo del database>*/

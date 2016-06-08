@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+  <title>Test Suite</title>
+</head>
+<body>
+<table id="suiteTable" cellpadding="1" cellspacing="1" border="1" class="selenium"><tbody>
+<tr><td><b>Test Suite</b></td></tr>
+<tr><td><a href="CODLogin01">CODLogin01</a></td></tr>
+<tr><td><a href="CODLogin02">CODLogin02</a></td></tr>
+<tr><td><a href="CODLogin03">CODLogin03</a></td></tr>
+<tr><td><a href="CODLogin04">CODLogin04</a></td></tr>
+<tr><td><a href="CODLogin05">CODLogin05</a></td></tr>
+<tr><td><a href="CODLogin06">CODLogin06</a></td></tr>
+<tr><td><a href="CODInserisciPaziente01">CODInserisciPaziente01</a></td></tr>
+<tr><td><a href="CODInserisciPaziente02">CODInserisciPaziente02</a></td></tr>
+<tr><td><a href="CODAnamnesiPartner01">CODAnamnesiPartner01</a></td></tr>
+<tr><td><a href="CODAnamnesiPartner02">CODAnamnesiPartner02</a></td></tr>
+<tr><td><a href="CODInserisciAbitudinidiVita01">CODInserisciAbitudinidiVita01</a></td></tr>
+<tr><td><a href="CODInserisciAbitudinidiVita02">CODInserisciAbitudinidiVita02</a></td></tr>
+<tr><td><a href="CODInserisciStoriaMestruale01">CODInserisciStoriaMestruale01</a></td></tr>
+<tr><td><a href="CODInserisciStoriaMestruale02">CODInserisciStoriaMestruale02</a></td></tr>
+<tr><td><a href="CODInserisciStoriaGinecologica01">CODInserisciStoriaGinecologica01</a></td></tr>
+<tr><td><a href="CODInserisciStoriaGinecologica02">CODInserisciStoriaGinecologica02</a></td></tr>
+<tr><td><a href="CODInserisciAnticoncezionali01">CODInserisciAnticoncezionali01</a></td></tr>
+<tr><td><a href="CODInserisciAnticoncezionali02">CODInserisciAnticoncezionali02</a></td></tr>
+<tr><td><a href="CODInserisciStoriaOstetrica01">CODInserisciStoriaOstetrica01</a></td></tr>
+<tr><td><a href="CODInserisciStoriaOstetrica02">CODInserisciStoriaOstetrica02</a></td></tr>
+<tr><td><a href="CODInserisciStoriaPreconcezionale01 ">CODInserisciStoriaPreconcezionale01 </a></td></tr>
+<tr><td><a href="CODInserisciStoriaPreconcezionale02">CODInserisciStoriaPreconcezionale02</a></td></tr>
+<tr><td><a href="CODInserisciBambino01">CODInserisciBambino01</a></td></tr>
+<tr><td><a href="CODInserisciBambino02">CODInserisciBambino02</a></td></tr>
+<tr><td><a href="CODAnamnesiFamiliare01">CODAnamnesiFamiliare01</a></td></tr>
+</tbody></table>
+</body>
+</html>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="http://localhost:8084/" />
+<title>CODAnamnesiPartner01</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">CODAnamnesiPartner01</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>/cod/</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>Utente</td>
+	<td>dottore</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>//input[@value='Accedi']</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>leftFrame</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>link=Ricerca Paziente</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>topFrame</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cognome</td>
+	<td>Rossi</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>ora</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>relative=up</td>
+	<td></td>
+</tr>
+<tr>
+	<td>selectFrame</td>
+	<td>mainFrame</td>
+	<td></td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>link=Dettagli</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>nome</td>
+	<td>Alessio</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>cognome</td>
+	<td>Fiore</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>datanascita</td>
+	<td>23/05/1961</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>grupposanguigno</td>
+	<td>label=Apositivo</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>titolostudio</td>
+	<td>Diploma</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>fumo</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>farmaci</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>malattiefamiliari</td>
+	<td>Varicocele</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>malattiepersonali</td>
+	<td>Varicocele</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>document.forms[2].elements[12]</td>
+	<td>La persona è sana......<br /><br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>button</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>textfield3</td>
+	<td>3.8</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>button</td>
+	<td></td>
+</tr>
+
+</tbody></table>
+</body>
+</html>
